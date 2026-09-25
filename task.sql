@@ -13,5 +13,5 @@ on Orders (CustomerID);
 create index OrderID
 on OrderItems (OrderID);
 
-create index productID
+create index ProductID
 on OrderItems (ProductID);
