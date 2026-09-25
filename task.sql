@@ -6,3 +6,12 @@ on Customers (Email);
 
 create index Name
 on Products (Name);
+
+create index CustomerID
+on Orders (CustomerID);
+
+create index OrderID
+on OrderItems (OrderID);
+
+create index productID
+on OrderItems (ProductID);
